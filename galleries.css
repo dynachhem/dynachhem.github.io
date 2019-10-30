@@ -1,0 +1,67 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+  }
+
+  .home{
+    display: inline
+  }
+.name{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.threewords {
+  text-shadow: 3px 2px teal;
+  text-align: center;
+  font-size: 40px;
+  margin: 50px;
+}
+.centermain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    margin-bottom: 30px;
+  }
+.container {
+    max-width:1200px;
+    margin:auto;
+    overflow:auto;
+}
+.gallery{
+    margin:5px;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 90%;
+    height: 90%;
+}
+.desc{
+    padding: 15px;
+    text-align:center;
+    font-family: Dosis;
+}
